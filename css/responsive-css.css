@@ -1,0 +1,361 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 26, 2016, 10:30:31 AM
+    Author     : kersstech
+*/
+
+
+
+
+/*Responsive css start*/
+
+/*Ipad Landscape View*/
+
+@media only screen and (max-width: 1199px) {
+    .logo span{
+        font-size: 26px;
+    }
+    .logo, .logo img {
+        max-width:100px;
+    }
+    .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover{
+        padding: 10px;
+        font-size: 14px;
+    }
+    .navbar-default .navbar-nav > li > a{
+        padding: 10px;
+        font-size: 14px;
+    }
+    .navbar{
+        min-height: 40px;
+    }
+    .home-title{
+        font-size: 34px;
+    }
+    .common-padding {
+        padding: 78px 0;
+    }
+    .service-title {     
+        font-size: 18px;
+        margin: 25px 0 15px;
+    }
+    .service-content p {
+        font-size: 14px;
+    }
+    .filter-section .filter-container .filter > li{
+        padding: 0 25px;
+    }
+    ul.filter > li > a{
+        font-size: 14px;
+    }
+    .carousel-inner p{
+        padding: 60px 100px;
+    }
+    .pro-social-icon i{
+        margin: 0 2px;
+    }
+    .skill-title{
+        font-size: 24px;
+        margin: 10px 0 35px;
+    }
+    .footer-social-bar i {
+        font-size: 34px;
+    }
+    .social-count{
+        font-size: 18px;
+        padding: 0 8px;
+    }
+    .social-text{
+        font-size: 16px;
+    }
+    .footer-social-bar{
+        padding: 20px 0;
+    }
+    .report-bar{
+        font-size: 13px;
+    }
+    p{
+        font-size: 15px;
+    }
+    ul.footer-links li{
+        margin-bottom: 15px;
+    }
+    .footer-main-bar {
+        padding: 56px 0;
+    }
+    .subscribe-submit{
+        width: 50px;
+    }
+
+}
+
+/*Ipad Portrait View*/
+
+@media only screen and (max-width: 991px) {
+
+    .portfolio-title{
+        font-size: 14px;
+        padding-top: 38px;
+    }
+    .portfolio-subtitle{
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    .top-nav-collapse .logo{
+        display: none;
+    }
+    span.phone-number{
+        padding-right: 15px;
+    }
+    .logo {        
+        text-align: center;
+    }
+    .logo a{
+        display: inline-block;
+    }
+    .logo span{
+        /*width: 100%;*/
+        text-align: center;
+    }
+    .hero h1 {
+        font-size: 3em;
+    }
+    .hero h3 {
+        font-size: 16px;
+    }
+    .carousel-indicators {
+        bottom: 10px;
+    }
+    .portfolio-section .container,.filter-section .container{
+        width: 100%;
+    }
+    ul.footer-links li a{
+        font-size: 12px;
+    }
+    .pro-social-icon i{
+        border-radius: 30px;        
+        font-size: 16px;
+        height: 30px;
+        line-height: 32px;
+        margin: 0 2px;
+        width: 30px;
+    }
+    .pro-name{
+        font-size: 12px;
+        padding: 15px 0;
+    }
+    .row{
+        margin: 0;
+    }
+    .newletter-box{
+        width: 96%;
+    }
+    .footer-title{
+        margin-top: 30px;
+    }
+    .filter-section .filter-container .filter > li{
+        margin: 0 0px;
+    }
+    .social-text {
+        width: 100%;
+        float: left;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .social-count{
+        top: -5px;
+    }
+    .footer-social-bar i {
+        float: left;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .top-bar{
+        padding: 10px 0;
+    }
+}
+
+/*Mobile Landscape View*/
+
+@media only screen and (max-width: 767px) {
+    .top-bar{
+        text-align: center;
+        padding: 5px 0;
+    }
+    .social-icon{
+        margin-bottom: 5px;
+    }
+    .contact-info{
+        text-align: center;
+    }
+    .logo{
+        float: left;
+    }
+    .logo span {
+        width: auto;
+        text-align: left;
+        margin-top: 8px;
+    }
+    .navbar-toggle{
+        margin-right: 0;
+    }
+    .carousel-indicators {
+        bottom: 0;
+    }
+    .btn.btn-hero, .btn.btn-hero:hover, .btn.btn-hero:focus{
+        display: none;
+    }
+    .hero h1 {
+        font-size: 1.2em;
+    }
+    .hero h3 {
+        font-size: 8px;
+    }
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form{
+        width: 100%;
+        padding: 0;
+    }
+    .navbar-nav {
+        margin: 0;
+        width: 100%;
+    }
+    .slider-testimonial{
+        width: 100%;
+    }
+    .pro-block{
+        float: none;
+        margin: 0 auto;
+        width: auto;
+        margin-bottom: 15px;
+        display: inline-block;
+    }
+    .expert-block{
+        margin-bottom: 15px;
+    }
+    #TESTIMONIALS .col-xs-12,#TESTIMONIALS .container{
+        padding: 0;
+    }
+    .carousel-inner p{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    img.double-left {
+        left: 15px;
+        top: 20px;
+    }
+    img.double-right{
+        right: 15px;
+    }
+    .arrow-bottom{
+        left: 42.8%;
+    }
+    .expert-block{
+        padding: 15px;
+    }
+    .skill-title{
+        margin: 10px 0 25px;
+    }
+    body .col-xs-12{
+        padding: 0;
+    }
+    .back-to-top{
+        right: 1em;
+        bottom: 2.2em;
+    }
+    .nav.navbar-nav {
+        background: #fff none repeat scroll 0 0;
+        border-bottom: 1px solid #e7e7e7;
+        left: 0;
+        position: fixed;
+    }
+    .menu-padd{
+        padding: 0;
+    }
+    .footer-main-bar {
+        padding: 20px 0;
+    }
+    .footer-social-bar .col-sm-3.col-xs-12{
+        margin: 5px 0;
+    }
+    .navbar-default{
+        padding: 0;
+    }
+    .filter-section .container,.portfolio-section .container{
+        padding: 0;
+    }
+    .home-title {
+        font-size: 22px;
+    }
+    .skill-title {
+        font-size: 22px;
+    }
+    .footer-social-bar i {
+        float: none;
+        margin-bottom: 15px;
+        width: auto;
+    }
+    .social-text {
+        float: none;
+        width: 100%;
+        top: -5px;
+    }
+    .col-xs-12.top-bar {
+        padding: 8px 0;
+    }
+
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 0 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+/*Mobile Portrait View*/
+
+@media only screen and (max-width: 360px) {
+
+    span.phone-number{
+        padding-right: 7px;
+    } 
+    .filter-section .filter-container .filter > li {
+        padding: 0 10px;
+        margin: 0 5px;
+    }
+    ul.filter > li.active a {
+        font-size: 12px;
+        height: 25px;
+        line-height: 25px;
+    }
+    ul.filter > li > a {
+        font-size: 12px;
+    }
+    .report-bar {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    span.phone-number {
+        padding-right: 0px;
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 320px) {
+
+    #carousel .container{
+        width: 100%;
+    }
+}
