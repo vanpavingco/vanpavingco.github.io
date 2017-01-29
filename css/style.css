@@ -106,7 +106,7 @@ p{
 .large {
     min-height:150px;
     background-color:#14254f;
-    z-index:100000;
+    z-index:1000;
 }
 
 .logo, .logo img {
@@ -934,7 +934,7 @@ ul.footer-links li a:hover{
     bottom: 0;
     width: 100%;
     height: 100%;
-    z-index: 99999;
+    z-index: 10000000000000;
 }
 .ball-clip-rotate-pulse {
     position: relative;
