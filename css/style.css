@@ -111,7 +111,8 @@ p{
 
 .logo, .logo img {
     max-width:450px;
-    padding:20px 0 0 25px;
+    width:100%;
+    padding:5px 0 0 0;
 }
 
 .logo span {
