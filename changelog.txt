@@ -1,0 +1,23 @@
+# Change Log for Vancouver Paving Company
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](http://keepachangelog.com/) 
+and this project adheres to [Semantic Versioning](http://semver.org/).
+
+## [0.1.0] - 01-22-2017
+### Added
+- Live HTML added to https://vanpavingco.github.io
+- header, slider, about us, services, and snippet added
+
+## [0.2.0] - 01-24-2017
+### Changed
+- Updated logo size from 200px to 312px to match current website's size
+- Rearranged telephone, logo, and navigation to match current site
+
+## [0.1.0] - 01-29-2017
+### Changed
+- Updated logo size from 312px to 450px 
+- Increased telephone font-size for more visibility
+- Changed padding to compensate for increased font-size and logo width
+- Changed slider image height to fit 1920 x 1080 screen sizes
+- Improved slider javascript for smoother scrolling
